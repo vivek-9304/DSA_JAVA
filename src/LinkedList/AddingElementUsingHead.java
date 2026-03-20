@@ -36,7 +36,7 @@ public class AddingElementUsingHead {
         }
     }
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         HeadTail ht = new HeadTail();
         for(int i=1; i<=10; i++){
             // Wish to add the table of 5 as demo
