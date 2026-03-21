@@ -48,6 +48,19 @@ class LinkedList{
             }
             return temp.data;
         }
+        int getMid_bySlowFast(){
+            node slow = head;
+            node fast = head;
+            if(head == null){
+                return 0;
+            }
+            while(fast!=null){
+                // if slow move by 1 step, fast move by 2 step. When fast will be at null slow will be at middle
+                slow = slow.next;
+                fast = fast.next.next;
+            }
+            return slow.data;
+        }
     }
 
     public static void main(String[] args){
