@@ -4,6 +4,7 @@ This repository contains my practice of Data Structures and Algorithms.
 
 ## Topics Covered
 - Linked List
+- Stack List
 - (More coming soon...)
 
 ## Structure
