@@ -1,6 +1,5 @@
 package Arrays;
 
-import java.util.*;
 public class Segregate_0_and_1 {
     static int[] Num(){
         int[] arr = {0,0,1,1,1,0,0,1,0,1,1,0,0,1,0};
@@ -22,7 +21,6 @@ public class Segregate_0_and_1 {
         return arr;
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         int [] num = Num();
         for(int i : num){
             System.out.print(i+" ");
