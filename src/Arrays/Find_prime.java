@@ -2,15 +2,14 @@ package Arrays;
 
 public class Find_prime {
     static boolean Prime(int x){
-        int y=0;
         if(x==2 || x==3 || x==5)
             return true;
         if((x%2!=0 && x%3!=0 && x%5!=0)){
            for(int i=2; i<=x/2; i++){
                if(x%i==0)
-                   y++;
+                   return false;
            }
-           return y == 0;
+           return true;
         }
         return false;
     }
