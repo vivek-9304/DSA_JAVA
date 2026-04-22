@@ -4,6 +4,8 @@ This repository contains my practice of Data Structures and Algorithms.
 
 ## Topics Covered
 - Arrays
+- Binary Search
+- Sorting
 - Linked List
 - Stack List
 - (More coming soon...)
