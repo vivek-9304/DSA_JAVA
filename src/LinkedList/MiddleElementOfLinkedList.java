@@ -73,5 +73,7 @@ class LinkedList{
         }
         ll.Print();
         System.out.println(ll.GetMid()+" is the middle number");
+        System.out.println(ll.getMid_bySlowFast()+" is the middle number by slow fast method");
+        sc.close();
     }
 }
