@@ -11,6 +11,9 @@ This repository contains my practice of Data Structures and Algorithms.
 - OOPs
 - Linked List
 - Stack List
+- Queue List
+- Binary Tree
+- Bit Manipulation
 - (More coming soon...)
 
 ## Structure
