@@ -15,5 +15,6 @@ public class map {
         System.out.println(car.get("BMW"));
         for (String key : car.keySet())
             System.out.print(key + " : " + car.get(key) + "  ,  ");
+
     }
 }
