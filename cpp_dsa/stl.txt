@@ -1,0 +1,180 @@
+C++ STL
+│
+├── Containers
+│   │
+│   ├── Sequence Containers
+│   │   ├── array
+│   │   ├── vector
+│   │   ├── deque
+│   │   ├── list
+│   │   └── forward_list
+│   │
+│   ├── Associative Containers
+│   │   ├── set
+│   │   ├── multiset
+│   │   ├── map
+│   │   └── multimap
+│   │
+│   ├── Unordered Containers
+│   │   ├── unordered_set
+│   │   ├── unordered_multiset
+│   │   ├── unordered_map
+│   │   └── unordered_multimap
+│   │
+│   └── Container Adaptors
+│       ├── stack
+│       ├── queue
+│       └── priority_queue
+│
+├── Iterators
+│   ├── Types
+│   │   ├── Input Iterator
+│   │   ├── Output Iterator
+│   │   ├── Forward Iterator
+│   │   ├── Bidirectional Iterator
+│   │   └── Random Access Iterator
+│   │
+│   └── Functions
+│       ├── begin()
+│       ├── end()
+│       ├── rbegin()
+│       ├── rend()
+│       ├── next()
+│       ├── prev()
+│       ├── advance()
+│       └── distance()
+│
+├── Algorithms
+│   │
+│   ├── Sorting
+│   │   ├── sort()
+│   │   ├── stable_sort()
+│   │   ├── partial_sort()
+│   │   └── nth_element()
+│   │
+│   ├── Searching
+│   │   ├── find()
+│   │   ├── find_if()
+│   │   ├── binary_search()
+│   │   ├── lower_bound()
+│   │   ├── upper_bound()
+│   │   └── equal_range()
+│   │
+│   ├── Counting
+│   │   ├── count()
+│   │   └── count_if()
+│   │
+│   ├── Min / Max
+│   │   ├── min()
+│   │   ├── max()
+│   │   ├── min_element()
+│   │   ├── max_element()
+│   │   └── minmax_element()
+│   │
+│   ├── Modification
+│   │   ├── reverse()
+│   │   ├── rotate()
+│   │   ├── fill()
+│   │   ├── swap()
+│   │   ├── replace()
+│   │   ├── remove()
+│   │   ├── unique()
+│   │   └── copy()
+│   │
+│   ├── Permutation
+│   │   ├── next_permutation()
+│   │   └── prev_permutation()
+│   │
+│   ├── Heap Algorithms
+│   │   ├── make_heap()
+│   │   ├── push_heap()
+│   │   ├── pop_heap()
+│   │   └── sort_heap()
+│   │
+│   ├── Set Algorithms
+│   │   ├── set_union()
+│   │   ├── set_intersection()
+│   │   ├── set_difference()
+│   │   └── set_symmetric_difference()
+│   │
+│   └── Numeric Algorithms
+│       ├── accumulate()
+│       ├── iota()
+│       ├── partial_sum()
+│       ├── adjacent_difference()
+│       └── inner_product()
+│
+├── Function Objects (Functors)
+│   ├── less<>
+│   ├── greater<>
+│   ├── plus<>
+│   ├── minus<>
+│   ├── logical_and<>
+│   └── Custom Comparator
+│
+├── Lambda Functions
+│   ├── Capture by Value
+│   ├── Capture by Reference
+│   ├── Mutable Lambda
+│   └── Generic Lambda
+│
+├── Pair & Tuple
+│   ├── pair
+│   ├── make_pair()
+│   ├── tuple
+│   ├── make_tuple()
+│   ├── tie()
+│   └── Structured Binding
+│
+├── Utilities
+│   ├── swap()
+│   ├── move()
+│   ├── forward()
+│   ├── exchange()
+│   ├── optional
+│   ├── variant
+│   └── any
+│
+└── Memory
+    ├── unique_ptr
+    ├── shared_ptr
+    ├── weak_ptr
+    └── allocator
+
+
+
+Trees
+│
+├── Binary Tree
+│   ├── Traversals
+│   ├── Height
+│   ├── Diameter
+│   ├── Views
+│   ├── LCA
+│   └── Serialization
+│
+├── Binary Search Tree (BST)
+│   ├── Search
+│   ├── Insert
+│   ├── Delete
+│   ├── Validate BST
+│   ├── Kth Smallest
+│   └── Iterator
+│
+├── Balanced Trees
+│   ├── AVL Tree
+│   ├── Red-Black Tree
+│   └── B/B+ Tree (Database)
+│
+├── Heap
+│
+├── Trie
+│
+├── Segment Tree
+│
+├── Fenwick Tree (BIT)
+│
+└── Advanced
+    ├── Suffix Tree
+    ├── Treap
+    └── Sparse Table
